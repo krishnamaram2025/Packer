@@ -15,7 +15,7 @@ This project is intended to automate baking AWS AMI using Packer.
 # Execution Flow
 * Step 1: Clone repo and run 
 ```
-   git clone https://github.com/devopsmadeeasyorg/Packer.git && cd Packer
+   git clone https://github.com/krishnamaram2025//Packer.git && cd Packer
 ```
 * Step 2: Base AMI in backing_ami.json 
 ```
