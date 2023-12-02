@@ -12,6 +12,7 @@
 "inline":["sudo yum install epel-release -y",
 "sudo yum install git -y",
 "sudo yum install wget -y",
+"sudo yum install python3 -y",
 "sudo yum install ansible -y"]
 }]
 }
