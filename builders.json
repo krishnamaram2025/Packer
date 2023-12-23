@@ -21,7 +21,7 @@
 },
   {
 "type": "shell",
-"script": "scripts/bash.sh"
+"script": "bash/script.sh"
 },
 {
 "type": "ansible-local",
