@@ -1,12 +1,9 @@
 #!/bin/sh -eux
-
-#install EPEL repository
+# Install EPEL repository
 sudo yum -y install epel-release 
-
-#Install Ansible
+# Install Ansible
 sudo yum -y install ansible python-setuptools
-
-#sudo yum install ansible -y
+# Install Docker
 sudo yum install docker -y
 sudo systemctl start docker
 sudo groupadd docker
