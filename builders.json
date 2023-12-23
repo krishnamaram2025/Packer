@@ -12,16 +12,16 @@
 "provisioners":[
 {
 "type": "shell",
-"script": "scripts/ansible.sh"
-},
-{
-"type": "shell",
 "inline": ["yum clean all", 
 "sudo yum install epel-release -y",
 "sudo yum install git -y",
 "sudo yum install wget -y",
 "sudo yum install python3 -y",
-"sudo yum install ansible -y"]
+sudo yum install python3-pip -y]
+},
+  {
+"type": "shell",
+"script": "scripts/bash.sh"
 },
 {
 "type": "ansible-local",
@@ -30,10 +30,6 @@
 "ansible/roles/cssp_basics",
 "ansible/roles/cleanup"
 ]
-
 }
 ]
 }
-
-
-
