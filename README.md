@@ -24,7 +24,12 @@ git clone https://github.com/krishnamaram2025/Packer.git && cd Packer
 }
 ```
 * Step 2: Optional for ami_backing.json
-  
+```
+vi ami_baking.json
+AMI: Virginia: ami-002070d43b0a4f171 and Oregon: ami-08c191625cfb7ee61
+region
+instance type
+```
 * Step 3: validate syntax and build custom AMI
 ```
 packer validate -var-file=variables.json builders.json
